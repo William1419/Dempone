@@ -9,6 +9,7 @@ import { ReactCountryFlag } from 'react-country-flag';
 
 
 const Signup = () => {
+  const [showPasswordModal, setShowPasswordModal] = useState(false);
   const [countryCodes, setCountryCodes] = useState([]);
 
   useEffect(() => {
@@ -107,6 +108,7 @@ const Signup = () => {
                 className="form-control py-3"
                 id="password"
                 placeholder="Create password"
+                
               />
             </div>
             <div className='text-dark d-flex  align-items-center justify-content-between '>
