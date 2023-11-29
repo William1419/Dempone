@@ -46,7 +46,9 @@ const Login = () => {
               </label>
               </div>
               <div className='text-primary'>
-                Forgot Password ?
+                <Link href='/forgotpassword'>
+                  Forgot Password ?
+                  </Link>
               </div>
             </div>
             
@@ -68,7 +70,7 @@ const Login = () => {
                   </label>
                 </div>
                 <div className='text-primary m-2'>
-                  <Link href='/signup'>
+                  <Link href='/roles'>
                     Sign Up
                   </Link>                
                 </div>
